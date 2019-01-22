@@ -944,7 +944,7 @@ default_socket_timeout = 60
 [Date]
 ; Defines the default timezone used by the date functions
 ; http://www.php.net/manual/en/datetime.configuration.php#ini.date.timezone
-date.timezone = GMT
+date.timezone = UTC
 
 ; http://www.php.net/manual/en/datetime.configuration.php#ini.date.default-latitude
 ;date.default_latitude = 31.7667
