@@ -256,6 +256,8 @@ yourself:
       * Adds a custom composer repository mirror URL to composer configuration. Note: This only affects packages listed in composer.json.
     * **COMPOSER_INSTALLER**
       * Overrides the default URL for downloading Composer of https://getcomposer.org/installer. Useful in disconnected environments.
+    * **COMPOSER_INSTALLER_OPTIONS**
+      * Pass additional options to the installer, for example --1 for latest v1 of Composer. See https://getcomposer.org/download/ for more options.
     * **COMPOSER_ARGS**
       * Adds extra arguments to the `composer install` command line (for example `--no-dev`).
 
